@@ -11,6 +11,8 @@
 		EC4592472AD23B52007F8B72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4592462AD23B52007F8B72 /* ContentView.swift */; };
 		EC4592492AD23B55007F8B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4592482AD23B55007F8B72 /* Assets.xcassets */; };
 		EC45924D2AD23B55007F8B72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC45924C2AD23B55007F8B72 /* Preview Assets.xcassets */; };
+		EC4592552AD23DCB007F8B72 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC4592532AD23DCB007F8B72 /* Main.xcdatamodeld */; };
+		EC4592572AD24073007F8B72 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4592562AD24073007F8B72 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,9 @@
 		EC4592482AD23B55007F8B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC45924A2AD23B55007F8B72 /* PortfolioShowcase2023.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PortfolioShowcase2023.entitlements; sourceTree = "<group>"; };
 		EC45924C2AD23B55007F8B72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC4592542AD23DCB007F8B72 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		EC4592562AD24073007F8B72 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		EC4592582AD247D5007F8B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +57,11 @@
 		EC4592432AD23B52007F8B72 /* PortfolioShowcase2023 */ = {
 			isa = PBXGroup;
 			children = (
+				EC4592582AD247D5007F8B72 /* Info.plist */,
 				EC4592442AD23B52007F8B72 /* PortfolioShowcase2023App.swift */,
 				EC4592462AD23B52007F8B72 /* ContentView.swift */,
+				EC4592562AD24073007F8B72 /* DataController.swift */,
+				EC4592532AD23DCB007F8B72 /* Main.xcdatamodeld */,
 				EC4592482AD23B55007F8B72 /* Assets.xcassets */,
 				EC45924A2AD23B55007F8B72 /* PortfolioShowcase2023.entitlements */,
 				EC45924B2AD23B55007F8B72 /* Preview Content */,
@@ -139,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4592552AD23DCB007F8B72 /* Main.xcdatamodeld in Sources */,
+				EC4592572AD24073007F8B72 /* DataController.swift in Sources */,
 				EC4592472AD23B52007F8B72 /* ContentView.swift in Sources */,
 				EC4592452AD23B52007F8B72 /* PortfolioShowcase2023App.swift in Sources */,
 			);
@@ -274,6 +284,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PortfolioShowcase2023/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -312,6 +323,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PortfolioShowcase2023/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -359,6 +371,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC4592532AD23DCB007F8B72 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC4592542AD23DCB007F8B72 /* Main.xcdatamodel */,
+			);
+			currentVersion = EC4592542AD23DCB007F8B72 /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EC4592392AD23B52007F8B72 /* Project object */;
 }

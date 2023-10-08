@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct PortfolioShowcase2023App: App {
+    @StateObject var dataController = DataController()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
+                .environmentObject(dataController)
         }
     }
 }
