@@ -13,6 +13,9 @@
 		EC45924D2AD23B55007F8B72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC45924C2AD23B55007F8B72 /* Preview Assets.xcassets */; };
 		EC4592552AD23DCB007F8B72 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC4592532AD23DCB007F8B72 /* Main.xcdatamodeld */; };
 		EC4592572AD24073007F8B72 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4592562AD24073007F8B72 /* DataController.swift */; };
+		ECCE43312AD3419B00E156DF /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCE43302AD3419B00E156DF /* SidebarView.swift */; };
+		ECCE43332AD341A800E156DF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCE43322AD341A800E156DF /* DetailView.swift */; };
+		ECCE43352AD3472500E156DF /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCE43342AD3472500E156DF /* Filter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		EC4592542AD23DCB007F8B72 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		EC4592562AD24073007F8B72 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		EC4592582AD247D5007F8B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ECCE43302AD3419B00E156DF /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		ECCE43322AD341A800E156DF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		ECCE43342AD3472500E156DF /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 			children = (
 				EC4592582AD247D5007F8B72 /* Info.plist */,
 				EC4592442AD23B52007F8B72 /* PortfolioShowcase2023App.swift */,
+				ECCE43342AD3472500E156DF /* Filter.swift */,
 				EC4592462AD23B52007F8B72 /* ContentView.swift */,
+				ECCE43302AD3419B00E156DF /* SidebarView.swift */,
+				ECCE43322AD341A800E156DF /* DetailView.swift */,
 				EC4592562AD24073007F8B72 /* DataController.swift */,
 				EC4592532AD23DCB007F8B72 /* Main.xcdatamodeld */,
 				EC4592482AD23B55007F8B72 /* Assets.xcassets */,
@@ -147,8 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECCE43352AD3472500E156DF /* Filter.swift in Sources */,
 				EC4592552AD23DCB007F8B72 /* Main.xcdatamodeld in Sources */,
+				ECCE43332AD341A800E156DF /* DetailView.swift in Sources */,
 				EC4592572AD24073007F8B72 /* DataController.swift in Sources */,
+				ECCE43312AD3419B00E156DF /* SidebarView.swift in Sources */,
 				EC4592472AD23B52007F8B72 /* ContentView.swift in Sources */,
 				EC4592452AD23B52007F8B72 /* PortfolioShowcase2023App.swift in Sources */,
 			);
