@@ -13,6 +13,8 @@
 		EC45924D2AD23B55007F8B72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC45924C2AD23B55007F8B72 /* Preview Assets.xcassets */; };
 		EC4592552AD23DCB007F8B72 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC4592532AD23DCB007F8B72 /* Main.xcdatamodeld */; };
 		EC4592572AD24073007F8B72 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4592562AD24073007F8B72 /* DataController.swift */; };
+		EC7A06D62AD3D1F500ADDC78 /* IssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7A06D52AD3D1F500ADDC78 /* IssueView.swift */; };
+		EC7A06D82AD3D1FD00ADDC78 /* NoIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7A06D72AD3D1FD00ADDC78 /* NoIssueView.swift */; };
 		ECB4E49F2AD359AC002739B1 /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4E49E2AD359AC002739B1 /* Issue-CoreDataHelpers.swift */; };
 		ECB4E4A12AD35B6C002739B1 /* TagCoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB4E4A02AD35B6C002739B1 /* TagCoreDataHelpers.swift */; };
 		ECB9BB662AD36B00000F46B9 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB9BB652AD36B00000F46B9 /* IssueRow.swift */; };
@@ -31,6 +33,8 @@
 		EC4592542AD23DCB007F8B72 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		EC4592562AD24073007F8B72 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		EC4592582AD247D5007F8B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC7A06D52AD3D1F500ADDC78 /* IssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueView.swift; sourceTree = "<group>"; };
+		EC7A06D72AD3D1FD00ADDC78 /* NoIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoIssueView.swift; sourceTree = "<group>"; };
 		ECB4E49E2AD359AC002739B1 /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		ECB4E4A02AD35B6C002739B1 /* TagCoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCoreDataHelpers.swift; sourceTree = "<group>"; };
 		ECB9BB652AD36B00000F46B9 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				ECB4E4A02AD35B6C002739B1 /* TagCoreDataHelpers.swift */,
 				ECCE43322AD341A800E156DF /* DetailView.swift */,
 				EC4592562AD24073007F8B72 /* DataController.swift */,
+				EC7A06D52AD3D1F500ADDC78 /* IssueView.swift */,
+				EC7A06D72AD3D1FD00ADDC78 /* NoIssueView.swift */,
 				EC4592532AD23DCB007F8B72 /* Main.xcdatamodeld */,
 				EC4592482AD23B55007F8B72 /* Assets.xcassets */,
 				EC45924A2AD23B55007F8B72 /* PortfolioShowcase2023.entitlements */,
@@ -173,6 +179,8 @@
 				ECB4E4A12AD35B6C002739B1 /* TagCoreDataHelpers.swift in Sources */,
 				ECCE43312AD3419B00E156DF /* SidebarView.swift in Sources */,
 				EC4592472AD23B52007F8B72 /* ContentView.swift in Sources */,
+				EC7A06D62AD3D1F500ADDC78 /* IssueView.swift in Sources */,
+				EC7A06D82AD3D1FD00ADDC78 /* NoIssueView.swift in Sources */,
 				ECB9BB662AD36B00000F46B9 /* IssueRow.swift in Sources */,
 				EC4592452AD23B52007F8B72 /* PortfolioShowcase2023App.swift in Sources */,
 			);
